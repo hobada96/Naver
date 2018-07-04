@@ -1,0 +1,7 @@
+객체지향 함수.
+lower() 소문자로 변환.
+upper()
+find()
+
+
+String != array *** 중요함.

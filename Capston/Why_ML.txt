@@ -1,0 +1,21 @@
+ML이 필요한 이유는 룰이 많은 경우 즉 자동으로 운전하는 차 스팸메일 인식 등은
+사람들이 하나하나 프로그래밍 할 수 없다.
+그래서 Arthur라는 사람이 프로그램이 자동으로 데이터를 보고 학습을 하여서 배우게
+만들었다.
+
+Supervised / Unsupervised learning
+감독
+
+Supervised = 정해져 있는 데이터 이미 레이블들이 정해져 있는 것 (Training Set)
+고양이 인식 프로그램.
+
+Unsupervised Program 
+
+
+
+Y는 값 X는 특징(Data) label을 가지고 학습을 한다.
+모르는 x에 대하여 
+
+범위 예측 = regression  =>  0~100점
+->문제 단순화  pass/non-pass => binary classification
+->문제 단순화 A/B/C/D/E/F => multi-label classification
