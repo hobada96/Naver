@@ -1,0 +1,50 @@
+explicit programming 개발자가 이것을 하라 저것을 하라 만든것.
+정확한 프로그래밍
+
+Machine Learning 개발자가 하나하나 하는 것이 아니라 프로그램이 
+데이터를 가지고 학습을 하는 것.
+
+Running rate 얼마나 이동할지 a(알파)
+
+Supervised / Unsupervised learning
+label이 정해져 있는 데이터를 가직 학습/  데이터를 보고 스스로 학습. 
+
+Supervised Learing
+-image labeling
+-Email spam filter
+-Predicting exam score
+-데이터를 가지고 학습을 시키는 것.
+
+Training data set
+하나의 ML모델 -> 답이 정해져있는 Y , X는 값의 특징 데이터
+모르는 X에 대해서 Y의 값을 예상하는 것.
+
+범위가 넓은 예측 : regression
+두가지로 나눈 분류(간소화 하여서) : binary classfication
+여러 범위로 나눈 분류 : multi-label classfication
+	
+cost function
+얼마나 잘 예측을 하였는가에 대한 function
+평균값((예측값 - 실제값)**2)
+학습 = w와 b를 조정하여서 cost function의 값을 최대한 낮추는 것.
+
+Variable로 w와 b를 정의한다.
+Variable의 계념은 기존의 프로그램의 변수와는 다른 계념이다.
+tensorflow가 사용하는 것이다. tensorflow가 바꾸는 값 trainable 한 값이다.
+tensorflow가 자체적으로 바꿔주는  값이다.
+Variable을 만들 때 
+reduce_mean  = tensor의 평균
+-----------------------------------------------------------------
+gradientDescent -> 경사도가 0인경우 stop.
+어떤 점에서든 시작할 수 있다.
+w를 조금 ㅠ 바꾼다.
+미분한다.
+순서---
+그래프 빌드
+그래프 실행
+그래프 업데이트
+
+--추가 설명 Regression 과 Classrfication의 차이
+Regression은 연속적이다 즉 평수에 의한 아파트 값 처럼 1일때 2 2일때 3..... 이러한 식이며
+Classfication은 연속적이지 않고 끊기는 것 즉 나이가 20대 일때 2cm이라면 음성암 50대 일때 종양크기가 5cm라면 양성암....
+참조 사이트 http://bcho.tistory.com/966

@@ -1,0 +1,25 @@
+Linear Regresion
+supervised running 데이터를 가지고 학습을 시키는 것.
+regression (???)
+trainning data
+
+linear한 선을 찾는 것이 목표이다.
+x는 예측을 하기 위한 기본적인 자료 picture?
+(Linear) Hypothesis --> linear 한 가설.
+H(x) = Wx + b     --> 2차원 그래프에 서 나타낸 선형그래프
+(가설) =  값에 w를 곱하고 +b를 한다.
+
+cost function (Loss function)
+H(x) - y .... 별로 안좋음
+(H(x) - Y)**2 을 해주는 것이 좋다 -> cost Function
+cost = 1/m m시그마i=1 
+(H(x**i)-y**i)**2
+
+Goal : Minimize cost
+minimize CostgW,b) 기계학습의 목표.
+
+GradientDescent magic
+[8.1006155]
+[8.10002]
+[8.100208]
+[8.10002]
